@@ -13,3 +13,7 @@ def summarize_project_progress(tasks_data: list) -> str:
     
     response = model.generate_content(prompt)
     return response.text
+
+def analyze_risk(tasks_data: list) -> str:
+    """Hàm AI đánh giá rủi ro chậm tiến độ"""
+    return "Phân tích rủi ro dự án"
