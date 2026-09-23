@@ -10,3 +10,8 @@ function App() {
 }
 
 export default App;
+
+// Component Kanban Board
+export function KanbanBoard() {
+  return <div className="board">Kanban Task Board</div>;
+}
